@@ -1,3 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #FFF7F0;
+  color: #35445F;
+}
+
+#site-header {
+  padding: 20px;
+  border-bottom: 3px solid #F28C5B;
+  background-color: #FFE3D2;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+#site-header h1 {
+  color: #C95F36;
+}
+
+.main-nav a {
+  display: inline-block;
+  margin-right: 16px;
+  color: #4776B8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #C95F36;
+  text-decoration: underline;
+}
+
+.content-section {
+  margin-bottom: 28px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #F0D9CE;
+  border-radius: 14px;
+}
+.content-section h2 {
+  color: #4776B8;
+}
+
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 12px;
+  border: 1px solid #F0D9CE;
+  text-align: left;
+}
+
+
+
+.schedule-table th {
+  background-color: #F28C5B;
+  color: #FFFFFF;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: #FFF0F4;
+}
+
+
+
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  padding: 16px;
+  border: 2px solid #F3A8C4;
+  border-radius: 14px;
+  background-color: #FFF0F4;
+}
+
+
+.card:nth-child(even) {
+  background-color: #FFF0E5;
+  border-color: #F5B18F;
+}
+
+.card h3 {
+  color: #35445F;
+}
+
+
+
+
+
+.weight {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4776B8;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.register-form input {
+  padding: 8px;
+  border: 1px solid #D8B9B0;
+  border-radius: 8px;
+  font-size: 16px;
+ background-color: #FFFCFA;
+  color: #35445F;
+}
+
+.register-form input:focus {
+  outline: 2px solid #4776B8;
+  border-color: #4776B8;
+}
+.btn-primary {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #F28C5B;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #D96F42;
+}
+
+.site-footer {
+  margin-top: 24px;
+  padding: 16px;
+  border-top: 2px solid #F3A8C4;
+  color: #4776B8;
+  text-align: center;
+}
+
+  @media (max-width: 700px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
 /* ITCS333 A2 starter — implement the design spec from index.html here.
    See README rubric for the graded checks. Do not use inline styles. */
 
